@@ -24,11 +24,31 @@ main {
 }
 
 header {
-    background-color: coral;
+    box-shadow: 0 10px 10px  #3a3a3a33;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white
+
 }
+
 
 h1 {
     font-family: Oswald, sans-serif;
+}
+
+nav > ul {
+    list-style-type: none;
+    letter-spacing: 3px;
+}
+
+nav > ul > li {
+    padding-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #3a3a3a;
 }
 
 footer {
