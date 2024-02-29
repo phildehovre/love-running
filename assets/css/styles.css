@@ -1,5 +1,34 @@
+
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+    font-family: Lato, sans-serif;
+    color: #3a3a3a;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: skyblue
+}
+
+header {
+    background-color: coral;
+}
+
+footer {
+    background-color: sandybrown;
+    text-align: center;
+    padding: 1rem;
 }
