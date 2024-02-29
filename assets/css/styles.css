@@ -27,6 +27,10 @@ header {
     background-color: coral;
 }
 
+h1 {
+    font-family: Oswald, sans-serif;
+}
+
 footer {
     background-color: sandybrown;
     text-align: center;
